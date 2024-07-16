@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 5px 5px;
@@ -10,6 +15,10 @@ header {
   height: auto;
   display: block;
   border-radius: 15px;
+}
+
+.tit {
+  text-align: center;
 }
 
 .section {
@@ -119,7 +128,6 @@ header {
     background-color: #1ebe5d;
 }
 
-
 #linksCabecalho {
   display: flex;
   justify-content: space-around;
@@ -155,6 +163,7 @@ header {
       text-align: center;
   }
 }
+
 
 
 
